@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Viral Spaces - MIT Media Lab</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/nivo-slider.css" />
+  <link rel="stylesheet" href="css/nivo-dark/dark.css" type="text/css" media="screen" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,500' rel='stylesheet' type='text/css'>
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+  <script type="text/javascript" src="js/jquery-min.js"></script>
+  <script type="text/javascript" src="js/nivo-min.js"></script>
+  <script type="text/javascript" src="js/ga.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+          effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+          randomStart: true, // Start on a random slide
+      });
+    });
+  </script>
+
+
+
+</head>
+<body>
+
+<!-- Header-->
+  <div class="row">
+    <div class="large-6 columns">
+      <h1><img src="img/logo.png" /></h1>
+    </div>
+  </div>
+  
+<!-- Side Nav and Body -->
+  <div class="row">    
+    <div class="large-2 push-1 columns">
+      <ul class="side-nav">
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#people">People</a></li>
+        <li><a href="#misc">Misc</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="large-10 push-1 columns">
+
+      <!-- Image Carousel Section -->
+      <div class="row">
+         <div class="slider-wrapper theme-dark">
+            <div id="slider" class="nivoSlider">
+                <img src="img/highlight/highlight_01.jpg" alt="" />
+                <img src="img/highlight/highlight_02.jpg" alt="" />
+                <img src="img/highlight/highlight_05.jpg" alt="" />
+                <img src="img/highlight/highlight_06.jpg" alt="" />
+                <img src="img/highlight/highlight_07.jpg" alt="" />
+                <img src="img/highlight/highlight_08.png" alt="" />
+                <img src="img/highlight/highlight_09.jpg" alt="" />
+            </div>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div class="row">
+        <h1 id="vision">Vision</h1>
+        <hr/>
+        <p>The Viral Spaces group researches the intersection of mobile networks with physical spaces.  We develop both the basic technology of proximal networks as well as applications that demonstrate the value of wireless local interactions.  These span transactional activities, emergent social styles, and transforming localized experience into learning activities and team endeavors.  We try to transform the space around us and the organizations in which we operate into vivid, self revealing places that engage rather than distract us.  We devote special energy to infrastructure-free communications that scale and function when central access is unavailable or costly.  We also develop basic technologies that allow direct interaction with the things around us like objects and displays using sensing and effecting devices that are already in or amenable to being embedded in mobile and portable devices.</p>
+      </div>
+
+      <!-- Projects Section -->
+      <div class="row" id="proj_div">
+        <h1 id="projects">Projects</h1>
+        <hr/>
+        
+      <ul class="small-block-grid-1 large-block-grid-2">
+        <!-- Standard Project Form -->
+        <!-- <li>
+          <h3>Project Name</h3>
+          <h4>People (in all caps)</h4>
+          <img src="img/projects/image.jpeg"/>
+          <p>Short( ~2 sentence) description.</p>
+        </li> -->
+	
+	<li><a href="projects/spherical-system">
+          <h3>Spherical System</h3>
+          <h4>LAZAROVICH AND ANDY LIPPMAN</h4>
+          <img src="img/projects/spherical-system-small.jpg"/>
+          <p>The future of media experience lies within a socially connected virtual world. We created a socially connected 360-degree immersive virtual world for media exploration and selection and big data manipulation and visualization.</p>
+        </a></li>
+
+        <li><a href="projects/ultimatemedia">
+          <h3>Ultimate Media</h3>
+          <h4>SAWADA, SPEISER, HEMSLEY, DIEP, NILES, LAZAROVICH, NOVY, BOVE, LIPPMAN</h4>
+          <img src="img/projects/utv.png"/>
+          <p>Creating an environment for exploration and expression through the world of media.</p>
+        </a></li>
+
+        <li><a href="projects/gifgif">
+          <h3>GIFGIF</h3>
+          <h4>RICH, HU, LIPPMAN, AND HIDALGO</h4>
+          <img src="img/projects/gifgif.png"/>
+          <p>Mapping the Emotional Language of Gifs.</p>
+        </a></li>
+
+        <li><a href="projects/recast">
+          <h3>Re-Casting</h3>
+          <h4>SAWADA, HEMSLEY, SPEISER, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/recast-sq.png"/>
+          <p>A system to assemble real-time newscasts both automatically and interactively.</p>
+        </a></li>
+
+        <li><a href="projects/worldlens">
+          <h3>WorldLens</h3>
+          <h4>SPEISER, SAWADA, HEMSLEY, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/worldlens.png"/>
+          <p>Arraying news information in depth across alarge multitouch display organized by time, 
+            by coverage, and by geography.</p>
+        </a></li>
+
+        <li><a href="projects/media_matrix">
+          <h3>Media Matrix</h3>
+          <h4>NILES, DIEP, SPEISER, RICH AND ANDY LIPPMAN</h4>
+          <img src="img/projects/matrix.png"/>
+          <p>A scalable portal to explore, remix, and share an almost infinite array of visual media.</p>
+        </a></li>
+
+        <li><a href="projects/telecorrelator">
+          <h3>Tele-Correlator</h3>
+          <h4>SAWADA, HEMSLEY, SPEISER, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/tele-sq.png"/>
+          <p>Allowing people to view multiple perspectives of real-time news events aligned by content as well as time.</p>
+        </a></li>
+
+        <li><a href="projects/vio">
+          <h3>VIO</h3>
+          <h4>SAWADA, HEMSLEY, SPEISER, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/vio_img.jpeg"/>
+          <p>Video Instrumented Objects: bridging the gap between real objects and interactive media.</p>
+        </a></li>
+
+        <li><a href="projects/glue">
+          <h3>Glue</h3>
+          <h4>SAWADA, HEMSLEY, SPEISER, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/Glue_square.jpeg"/>
+          <p>Rescales and analyzes media in realtime with frame-by-frame metadata.</p>
+        </a></li>
+
+        <li><a href="projects/crystalball">
+          <h3>Crystal Ball</h3>
+          <h4>LAZAROVICH, NOVY AND ANDY LIPPMAN</h4>
+          <img src="img/projects/crystalball.jpg"/>
+          <p>A multi touch hemisphere controller that is driven by social and personal data and used for media exploration. By offering a unique experience for multiple simultaneous users it emphasizes the potential of collaboration.</p>
+        </a></li>
+
+        <li><a href="projects/media_universe">
+          <h3>Media Universe</h3>
+          <h4>NILES, DIEP, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/universe_square.png"/>
+          <p>A networked visualization that reveals connections among a universe of broadcasted media.</p>
+        </a></li>
+
+        <li><a href="projects/airmobs">
+          <h3>Air Mobs</h3>
+          <h4>EYAL TOLEDANO, HENRY HOLTZMAN, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/airmobs.jpeg"/>
+          <p>Air Mobs is a community-based P2P cross-operator WiFi tethering market. It provides network connectivity when one device has no available Internet connection or roaming costs are too high, and another device has excellent network connectivity and a full battery.</p>
+        </a></li>
+
+        <li><a href="projects/cosync">
+          <h3>CoSync</h3>
+          <h4>EYAL TOLEDANO, HENRY HOLTZMAN, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/cosync.png"/>
+          <p>CoSync builds the ability to create and act jointly into mobile devices . This mirrors the way we as a society act both individually and in concert.</p>
+        </a></li>
+
+        <li><a href="projects/encoded_reality">
+          <h3>Encoded Reality</h3>
+          <h4>TRAVIS RICH AND ANDY LIPPMAN</h4>
+          <img src="img/projects/encodedreality.png"/>
+          <p>We explore techniques to integrate digital codes into physical objects. Spanning both the hard and the soft, this work entails incorporating textures, patterns, and passive electronic elements into the surfaces of objects in a coded manner.</p>
+        </a></li>
+
+        <li><a href="projects/soniclink">
+          <h3>SonicLink</h3>
+          <h4>DAN SAWADA AND ANDY LIPPMAN</h4>
+          <img src="img/projects/soniclink.png"/>
+          <p>SonicLink is a fully decentralized, proximal communication framework for personal devices to seamlessly discover, connect, and interact with arbitrary public installations (e.g. digital billboards).</p>
+        </a></li>
+
+        <li><a href="projects/btnz">
+          <h3>BTNz!</h3>
+          <h4>DAN SAWADA, JONATHAN SPEISER, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/btnz.png"/>
+          <p>BTNz! is a lightweight, viral interface consisting of a button and screen strategically positioned around public spaces to foster social interactions. </p>
+        </a></li>
+
+        <li><a href="projects/audiofile">
+          <h3>AudioFile</h3>
+          <h4>TRAVIS RICH AND ANDY LIPPMAN</h4>
+          <img src="img/projects/audiofile.jpeg"/>
+          <p>AudioFile overlays imperceptible tones on standard audio tracks to embed digital information that can be decoded by standard mobile devices. AudioFile lets users explore their media more deeply by granting them access to a new channel of communication.</p>
+        </a></li>
+
+        <li><a href="projects/graffiti">
+          <h3>Graffiti Codes</h3>
+          <h4>JEREMY RUBIN AND ANDY LIPPMAN</h4>
+          <img src="img/projects/graffiti.png"/>
+          <p>Grafitti codes allow users to encode a small piece of information into a physical space. It uses accelerometer based paths to unlock data. These paths can be drawn onto any surface with analouge tools (such as marker) and scanned by tracing them over with a mobile phone.</p>
+        </a></li>
+
+<li><a href="projects/picturethat">
+          <h3>PictureThat</h3>
+          <h4>JONATHAN SPEISER AND ANDY LIPPMAN</h4>
+          <img src="img/projects/picturethat.png"/>
+          <p>PictureThat is a social game that lets you turn the world around you into a scavenger hunt. Snap a picture of something you find interesting, and challenge a friend to find it.</p>
+        </a></li>
+
+
+
+        <li><a href="projects/vrcodes">
+          <h3>VR Codes</h3>
+          <h4>GRACE WOO AND ANDREW LIPPMAN</h4>
+          <img src="img/projects/vrcodes.jpeg"/>
+          <p>VR Codes are dynamic data invisibly hidden in television and graphic displays. They allow the display to present simultaneously visual information in an unimpeded way, and real-time data to a camera.</p>
+        </a></li>
+
+        <li><a href="projects/teamchess">
+          <h3>Teamification: ChessMaze</h3>
+          <h4>SHEN SHEN AND ANDY LIPPMAN</h4>
+          <img src="img/projects/teamchess.png"/>
+          <p>A platform for exploring strategy and expression that creates Chess teams to encourage learning in place.</p>
+        </a></li>
+
+        <li><a href="projects/cocam">
+          <h3>CoCam</h3>
+          <h4>EYAL TOLEDANO, DAN SAWADA, HENRY HOLTZMAN, AND ANDY LIPPMAN</h4>
+          <img src="img/projects/cocam.jpg"/>
+          <p>CoCam is a self-organizing network for real-time camera image collaboration. CoCam automatically joins other media creators into a network of collaborators..</p>
+        </a></li>
+
+        <li><a href="projects/psd">
+          <h3>Point&Shoot Data</h3>
+          <h4>TRAVIS RICH AND ANDREW LIPPMAN</h4>
+          <img src="img/projects/psd.jpeg"/>
+          <p>Point & Shoot Data explores the use of visible light as a wireless communication medium for mobile devices. A snap-on case allows users to send messages to other mobile devices based on directionality and proximity. </p>
+        </a></li>
+
+        <li><a href="projects/barter">
+          <h3>Barter</h3>
+          <h4>DAWEI SHEN, MARSHALL VAN ALSTYNE, AND ANDREW LIPPMAN</h4>
+          <img src="img/projects/barter.png"/>
+          <p>Creative and productive information interchange in organizations is often stymied by a perverse incentive setting among the members. We transform that competition into a positive exchange by using market principles.</p>
+        </a></li>
+
+        <li><a href="projects/pricetags">
+          <h3>Electric Pricetags</h3>
+          <h4>MATT BLACKSHAW AND ANDREW LIPPMAN</h4>
+          <img src="img/projects/pricetags.png"/>
+          <p>A simple platform to bring the mobile interaction into the social space, from the screen to the world.</p>
+        </a></li>
+
+        <li><a href="projects/newsflash">
+          <h3>NewsFlash</h3>
+          <h4>GRACE WOO AND ANDREW LIPPMAN</h4>
+          <img src="img/projects/newsflash.png"/>
+          <p>An optical magnifying glass to let each person get different information from the same screen.</p>
+        </a></li>
+
+        <!-- <li><a href="projects/peddl">
+          <h3>Peddl</h3>
+          <h4>MATT BLACKSHAW AND ANDREW LIPPMAN</h4>
+          <img src="img/projects/peddl.png"/>
+          <p>A transparent, proximal, open market that works as a two-way classified ad.</p>
+        </a></li> -->
+
+        
+      </ul>
+      </div>
+
+      <div class="row" id="people_div">
+        <h1 id="people">People</h1>
+        <hr/>
+
+        <div id="lip">
+          <a href="http://www.media.mit.edu/people/lip" target="blank">
+          <h3>Andrew Lippman</h3>
+          <h4>Principal Investigator</h4>
+          <img src="img/people/lip.jpeg"/>
+          </a>
+          <p>Andrew Lippman has a more than 35-year history at MIT. His work at the Media Lab has ranged from wearable computers to global digital television. Currently, he heads the Lab's Viral Spaces research group, which examines scalable, real-time networks whose capacity increases with the number of members. This new approach to telephony, sensor interconnection, and broadcasting transfers "mainframe communications" technology to distributed, personally defined, cooperative communicators. In addition, he co-directs MIT's interdisciplinary Communications Futures program. Lippman has directed research programs on digital pictures, personal computers, entertainment, and graphics, and he has served on advisory boards of technology start-ups. Currently, he is on the science councils of both non-profit and for-profit companies addressing global information infrastructures. Lippman received both his BS and MS in electrical engineering from MIT. In 1995 he completed his PhD studies at the EPFL, Lausanne, Switzerland.</p>
+        </div>
+
+        <ul class="small-block-grid-2 large-block-grid-3">
+
+        <li><a href="https://twitter.com/DiepV" target="blank">
+          <h3>Vivian Diep</h3>
+          <h4>M.S. Candidate</h4>
+          <img src="img/people/vivian.jpg"/>
+        </a></li>
+
+<!--         <li><a>
+          <h3>Nick Holden</h3>
+          <h4>Visiting Scientist, SingTel</h4>
+          <img src="img/people/nick.png"/>
+        </a></li> -->
+
+        <li><a href="http://www.robhemsley.co.uk/" target="blank">
+           <h3>Rob Hemsley</h3>
+           <h4>PhD Candidate</h4>
+           <img src="img/people/rob.jpg"/>
+        </a></li>
+
+        <li><a href="http://amirl.me/" target="blank">
+          <h3>Amir Lazarovich</h3>
+          <h4>M.S. Candidate</h4>
+          <img src="img/people/amir.jpg"/>
+        </a></li>
+
+        <li><a href="http://www.savannahniles.com/" target="blank">
+          <h3>Savannah Niles</h3>
+          <h4>M.S. Candidate</h4>
+          <img src="img/people/savannah.jpg"/>
+        </a></li>
+
+        <li><a href="http://www.travisrich.com" target="blank">
+          <h3>Travis Rich</h3>
+          <h4>PhD Candidate</h4>
+          <img src="img/people/trich.jpeg"/>
+        </a></li>
+
+        <li><a href="http://rubinte.ch/" target="blank">
+          <h3>Jeremy Rubin</h3>
+          <h4>Undergrad Researcher</h4>
+          <img src="img/people/jeremy.jpeg"/>
+        </a></li>
+
+        <li><a href="http://www.dsworld.net/" target="blank">
+          <h3>Dan Sawada</h3>
+          <h4>M.S. Candidate</h4>
+          <img src="img/people/dsawada.jpeg"/>
+        </a></li>
+
+        <li><a href="mailto:shenshen@mit.edu" target="blank">
+          <h3>Shen Shen</h3>
+          <h4>Course 6 M.S. Candidate</h4>
+          <img src="img/people/shen.png"/>
+        </a></li>
+
+        <li><a href="http://web.media.mit.edu/~jspeiser/" target="blank">
+          <h3>Jonathan Speiser</h3>
+          <h4>M.S. Candidate</h4>
+          <img src="img/people/jspeiser.jpeg"/>
+        </a></li>
+
+        <li><a href="http://www.media.mit.edu/people/dw" target="blank">
+          <h3>Deb Widener</h3>
+          <h4>Group Administrator</h4>
+          <img src="img/people/dw.jpeg"/>
+        </a></li>
+
+      </ul>
+
+      <!-- ALUMNI -->
+<!--       <h3>Alumni</h3>
+        <table id="alumni_table">
+          <tr><td>Eyal Toledano</td><td>MS</td><td>2013</td></tr>
+          <tr><td>Polychronis Ypodimatopoulos</td><td>MS, PhD</td><td>2013</td></tr>
+          <tr><td>Grace Woo</td><td>MS, PhD</td><td>2012</td></tr>
+          <tr><td>Dawei Shen</td><td>MS, PhD</td><td>2012</td></tr>
+          <tr><td>Julia Ma</td><td>MS</td><td>2012</td></tr>
+          <tr><td>Matt Blackshaw</td><td>MS</td><td>2012</td></tr>
+          <tr><td>Boris Kizelshteyn</td><td>MS</td><td>2011</td></tr>
+          <tr><td>Kwan Hong Lee</td><td>PhD</td><td>2011</td></tr>
+          <tr><td>Hector Yuen</td><td>MS</td><td>2006</td></tr>
+          <tr><td>Fulu Li</td><td>MS, PhD</td><td>20</td></tr>
+          <tr><td>David Gauthier</td><td>MS, PhD</td><td>20</td></tr>
+          <tr><td>Da</td><td>MS, PhD</td><td>20</td></tr>
+          <tr><td>Da</td><td>MS, PhD</td><td>20</td></tr>
+          <tr><td>Da</td><td>MS, PhD</td><td>20</td></tr>
+        </table> -->
+
+      </div>
+
+      <div class="row" id="misc_div">
+        <h1 id="misc">Misc</h1>
+        <hr/>
+        <p>A collection of historical projects, tweets, and memorabilia.</p>
+
+        <div class="large-6 columns">
+          <h3>Word of Lip</h3>
+          <a class="twitter-timeline" href="https://twitter.com/WordOfLip" data-widget-id="316696702205706240">Tweets by @WordOfLip</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+
+        <!-- <div class="large-6 columns">
+          <h3>Aspen Movie Map (1981)</h3>
+          <iframe width="420" height="315" src="http://www.youtube.com/embed/Hf6LkqgXPMU" frameborder="0" allowfullscreen></iframe>
+        </div> -->
+        <!-- <div class="large-12 columns">...</div> -->
+
+      </div>
+
+      <div class="row" id="contact_div">
+        <h1 id="contact">Contact</h1>
+        <hr/>
+
+        <p>For general questions and interests, please contact the group administrator: <br/>
+         Deb Widener <br/>
+         617-253-9805 <br/>
+         dw[at]media.mit.edu <br/>
+         </p>
+        <h3>How to Apply</h3>
+        <h5>Graduate Students</h5>
+        <p>If you are interested in the Media Lab Master's or PhD program, please visit the <a href="http://www.media.mit.edu/mas/apply.html" target="blank">Media Lab admissions page</a> and the <a href="http://web.mit.edu/admissions/" target="blank">MIT admissions page</a>. All applications must go through the Media Lab.</p>
+
+        <h5>UROPS</h5>
+        <p>If you are interested in doing a UROP with the Viral Spaces group, please contact the group member whose work best aligns with your interests. More information about the UROP program can be found on the <a href="http://web.mit.edu/urop/" target="blank">MIT UROP page</a>.</p>
+
+
+      </div>
+
+  </div>
+    
+  
+  <!-- Footer -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>&copy; MIT Media Lab 2013</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+    	      <li><a href="#vision">Vision</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#people">People</a></li>
+            <li><a href="#misc">Misc</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </footer>
+</body>
+</html>

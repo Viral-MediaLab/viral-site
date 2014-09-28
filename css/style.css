@@ -1,0 +1,120 @@
+html body{
+	font-family: 'Lato', sans-serif; font-weight: 300;
+	background-color: #222;
+	color: #DDD;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+h1,h2, h3, h4, h5{
+	margin-bottom: 0px;
+	color: #DDD;
+}
+
+h1{
+	margin-top: 40px;
+}
+
+h4{
+	margin-top : -4px;
+	padding-bottom: 3px;
+	font-size: .6em;
+}
+
+hr{
+	margin:2px;
+}
+
+#project_title{
+	margin-top: 10px; /*Used to bump the first header higher so that it is flush with sidebar content*/
+}
+
+.side-nav li a{
+	font-size: 2em;
+
+}
+
+.side-nav li:hover a{
+	color:#ddd;
+}
+
+#proj_div img{
+	float:left;
+	margin-right: 5px;
+	width:125px;
+	height:125px;
+
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#proj_div p{
+	font-size: .8em;
+	margin-bottom: 0px;
+}
+
+#proj_div hr{
+	margin: 0px;
+}
+
+#proj_div p{
+	color:#ddd;
+}
+
+#proj_div a:hover h3{
+	color: #31b5d5;
+}
+
+#people_div img{
+	width:200px;
+}
+
+#people_div li:hover h3{
+	color: #31b5d5;
+}
+
+#people_div img{
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#lip img{
+	float:left;
+	margin-right: 10px;
+}
+
+#lip p{
+	font-size: .8em;
+}
+
+#lip a:hover h3{
+	color: #31b5d5;
+}
+
+#misc_div div{
+	padding-bottom: 15px;
+}
+
+#project_content img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#project_content img{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#alumni_table{
+	border-width: 0;
+}
+
+#alumni_table td{
+	color: #DDD;
+	background-color: #222;
+}
