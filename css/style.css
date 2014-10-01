@@ -118,3 +118,7 @@ hr{
 	color: #DDD;
 	background-color: #222;
 }
+
+.logo-fixed-width {
+	width: 65% !important;
+}
